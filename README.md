@@ -1,6 +1,6 @@
 ## 一个JavaScript写的打字机插件！
 
-###使用方法
+### 使用方法
 ```javascript
 document.addEventListener('DOMContentLoaded', () => {
     const customSkills = [
