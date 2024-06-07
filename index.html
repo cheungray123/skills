@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h2 id="chakhsu" class="title">bonjour</h2>
+    <script type="text/javascript" src="/skills.js"></script>
+    <script>
+
+// 在页面中的其他 JavaScript 文件中
+document.addEventListener('DOMContentLoaded', () => {
+    const customSkills = [
+        "大叔一枚，不屑世事，不修边幅",
+        "然修篱种菊，尽管入流往事",
+        "每天仍涛声依旧"
+    ];
+
+    createSkills(document.querySelector('#chakhsu'), customSkills);
+});
+
+
+
+    </script>
+</body>
+</html>
